@@ -64,7 +64,7 @@ var Movie = React.createClass({
 
             render: function() {
                 return (
-                    React.createElement(Movie, {key: movies.img}, this.props.movies.img) 
+                    React.createElement(Movie, {key: movies.src}, this.props.movies.src) 
                 )
             }
         });
